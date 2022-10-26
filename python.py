@@ -8,7 +8,7 @@ class Fruits():
         self.quantity = quantity
         self.price = price
 
-    def total_cost(self): #
+    def total_cost(self): #methods 
         total_cost = self.price*self.quantity
         return total_cost
 
