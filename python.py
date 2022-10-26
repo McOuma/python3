@@ -3,16 +3,16 @@ class Fruits():
     
 #Attributes of the class Fruits(name of the fruits, price, quantity )
     
-    def __init__(self, name, quantity, price):
+    def __init__(self, name, quantity, price): #Attributes of the class 
         self.name = name
         self.quantity = quantity
         self.price = price
 
-    def total_cost(self):
+    def total_cost(self): #
         total_cost = self.price*self.quantity
         return total_cost
 
-fruit_1 = Fruits("orange", 45, 67)
+fruit_1 = Fruits("orange", 45, 67) #object of the class Fruits
 fruit_2 = Fruits("strawberry", 500, 45)
 fruit_3 = Fruits("pawpaw", 450, 35)
 
