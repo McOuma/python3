@@ -1,5 +1,8 @@
 #class and object instantiation 
 class Fruits():
+    
+#Attributes of the class Fruits(name of the fruits, price, quantity )
+    
     def __init__(self, name, quantity, price):
         self.name = name
         self.quantity = quantity
