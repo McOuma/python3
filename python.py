@@ -18,3 +18,12 @@ print(fruit_2.total_cost())
 print(fruit_1.name)
 print(fruit_2.name)
 print(fruit_3.name, fruit_3.price)
+
+
+class Employee():
+    def __init__(self, name, salary, department)
+        self.name = name
+        self.department = department
+        self.salary = salary 
+employee_1 = Employee("Amos", 150000, "Finace")
+print(employee_1.name)
