@@ -25,5 +25,5 @@ class Employee():
         self.name = name
         self.department = department
         self.salary = salary 
-employee_1 = Employee("Amos", 150000, "Finace")
+employee_1 = Employee("Amos", 150000, "Finance")
 print(employee_1.name)
