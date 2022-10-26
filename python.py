@@ -1,4 +1,4 @@
-#class in python (object)
+#class and object instantiation 
 class Fruits():
     def __init__(self, name, quantity, price):
         self.name = name
@@ -28,3 +28,8 @@ class Employee():
         self.salary = salary 
 employee_1 = Employee("Amos", 150000, "Finance")
 print(employee_1.name)
+
+
+
+
+
