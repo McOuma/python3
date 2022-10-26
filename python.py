@@ -20,8 +20,9 @@ print(fruit_2.name)
 print(fruit_3.name, fruit_3.price)
 
 
+
 class Employee():
-    def __init__(self, name, salary, department)
+    def __init__(self, name, salary, department):
         self.name = name
         self.department = department
         self.salary = salary 
