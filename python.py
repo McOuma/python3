@@ -30,6 +30,7 @@ class Employee():
         self.salary = salary 
 employee_1 = Employee("Amos", 150000, "Finance")
 print(employee_1.name)
+print(employee_1.department)
 
 
 
